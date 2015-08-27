@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><HTML><HEAD><TITLE></TITLE><META http-equiv=Content-Type content="text/html; charset=utf8"><META http-equiv=Content-Style-Type content=text/css><STYLE>.a{FONT-SIZE: 95%; FONT-FAMILY: Arial}.b{FONT-SIZE: 12px; FONT-FAMILY: Arial}.l{COLOR: #666666}.h14{FONT-SIZE:16px}.h12{FONT-SIZE:12px}.f18{FONT-WEIGHT:bold;FONT-SIZE:18px}.f13{FONT-SIZE:13px}.fb14{FONT-WEIGHT:bold;FONT-SIZE:14px}.content{MARGIN-LEFT: 100px}.style1{MARGIN-LEFT:100px;font-size:14px;}.ba {color:#666;text-decoration:none;background: url(http://www.sogou.com/logo/images/auto/i.png) no-repeat right -70px;padding-right:15px;}#ft {color: #666;line-height: 21px;font-family: arial;}</STYLE>
+    <script>
+        var uri = document.location.href;
+        var pos = uri.indexOf("?");
+        if(pos!=-1)uri = uri.substr(0,pos);
+        var domain = "sogou";
+        if(uri.indexOf("soso.com")>-1)domain = "soso";
+        if(domain=="soso")document.title="搜搜——请输入验证码";
+        else document.title="搜狗——请输入验证码";
+    </script>
+        <link rel="shortcut icon" href="http://logo.www.sogou.com/images/logo2014/new/favicon.ico" type="image/x-icon">
+    </HEAD>
+    <!--<BODY onload=javascript:document.authform.c.focus();>-->
+    <BODY>
+    <TABLE cellSpacing=0 cellPadding=0 width="78%" align=center border=0>
+        <TBODY>
+        <TR>
+            <TD width=190>
+                <DIV align=left><script>if(domain=="soso"){document.write("<A href=\"http://www.soso.com/\"><IMG height=30 src=\"http://www.sogou.com/soso/images/logo_so.gif\" width=180 border=0></A>");}else{
+                            document.write("<A href=\"http://www.sogou.com/\"><IMG height=60 src=\"http://logo.www.sogou.com/images/logo2014/error180x60.png\" width=180 border=0></A>");
+                        }</script></DIV></TD>
+            <TD><TABLE cellSpacing=0 cellPadding=2 width="100%" border=0><TBODY>
+                    <TR><TD colSpan=2><P class=b align=right></P></TD></TR>
+                    <TR><TD bgColor=#999999 colSpan=2 height=1></TD></TR>
+                    <TR><TD vAlign=bottom align=middle width="83%" bgColor=#efefef height=24><P align=left><B>　<SPAN class=h14>您的访问出错了</SPAN></B></P></TD>
+                        <TD vAlign=center align=middle bgColor=#efefef><DIV align=right><script>
+                                    if(domain=="soso"){document.write("<A class=b href=\"http://www.soso.com/\">搜搜首页</A>");}else{
+                                        document.write("<A class=b href=\"http://www.sogou.com/\">搜狗首页</A>");
+                                    }</script>
+                            </DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+    <TABLE cellSpacing=0 cellPadding=0 width="78%" align=center border=0>
+        <TBODY>
+        <TR>
+            <TD width="60" valign="top">&nbsp;</TD>
+            <TD valign="top">
+                <p><br><br></p>
+                <p class=h14>来自119.96.122.106的用户:</p>
+                <p class=h14>很抱歉，您的电脑或所在的局域网络有异常的访问，此刻我们无法响应您的请求。</p>
+
+                <p class=h14><b>请输入以下验证码，即可恢复使用</b></p>
+                <p class=h14>
+                    <form name="authform" method="POST" action="thank.php">
+                        <img src="seccode.php?tc=1425117024" alt="请输入图中的验证码" title="请输入图中的验证码">
+                        <p class=h14>
+                            <input type=text name="c" value="" style.imeMode='disabled' onfocus="this.style.imeMode='disabled'">
+                            <input type="hidden" name="tc" id="tc" value="">
+                            <input type="hidden" name="r" value="%2Fgzhjs%3Fcb%3Dsogou.weixin.gzhcb%26openid%3DoIWsFt2sFmMXiDf2BGLZYZ0LDcJ4%26repp%3D1" >
+                            <input type="hidden" name="m" value="0" >                            <input type="submit" value="提交" >
+                            <input type="button" value="刷新" onclick="javascript:location.reload();">
+                        </p>
+                    </form>        <br><br>
+                </p>
+                <P class=h12>如果您有不满或建议，请<a href="http://www.sogou.com/complain/antispider/front/index.php?v=1">反馈</a>。</P>
+                <p class=h12>2015-02-28 17:50:24　(f3f0e1071f5e6045e3ce09e30541c35a)</p>
+                <P class=h14></P>
+            </TD></TR></TBODY></TABLE>
+    <TABLE height=22 cellSpacing=0 cellPadding=0 width="78%" align=center   border=0><TBODY>
+        <TR><TD vAlign=center height=22><DIV align=center id=ft>&copy; 2015 <script>if(domain=='soso'){document.write("SOSO")}else{document.write("SOGOU");}</script>&nbsp;-&nbsp;京ICP证050897号&nbsp;-&nbsp;京公网安备1100<span class="ba">00000025号</span></DIV></TD></TR>
+        </TBODY></TABLE><DIV></DIV>
+    <script>
+        var tc = "f3f0e1071f5e6045e3ce09e30541c35a",ti="1425117024";
+        var elem = document.getElementById("tc");
+        elem.value = tc;
+        var im = new Image();
+        im.src="pv.php";
+        function reloadimg(that){
+            var src=that.src;
+            var path = src.substr(0,src.indexOf("?"));
+            that.src = path+"?tc="+ti+"&r="+(new Date()).getTime();
+        }
+    </script>
+    </BODY></HTML><!--zly-->

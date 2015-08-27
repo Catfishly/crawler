@@ -1,0 +1,19 @@
+# Install with: `pip install -r requirements.txt`
+
+
+# Support libs
+requests >= 2.2.1
+beautifulsoup4 >= 4.3.2
+BeautifulSoup >= 2.6.3
+selenium >= 2.44.0
+xlutils >= 1.7.1
+
+# Cassandra
+blist >= 1.3.6
+cassandra-driver == 2.1.2
+
+# MongoDB
+pymongo >= 2.7.2
+
+#redis
+redis >= 2.10.3
